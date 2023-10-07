@@ -10,4 +10,3 @@ while num < age:
     if num > 10:
         break
     num += 1
-# keyword
