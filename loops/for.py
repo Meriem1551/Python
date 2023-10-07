@@ -9,5 +9,6 @@ ninjas = ["Hori", "Miyamura", "Ishikawa", "Sakura"]
 for ninja in ninjas:
     if ninja == "Miyamura":
         print(f"{ninja} - black hair")
+        break
     else:
         print(ninja)
