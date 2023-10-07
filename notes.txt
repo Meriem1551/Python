@@ -1,0 +1,36 @@
+if you want to leave the interective shell ctrl+z enter
+to run a python file:
+python filename.py
+to return an integer in / we write x // y
+age = 5
+age + 5
+to see type of variables : in terminal: type(varname)
+arr[-number] from the end
+arr[number] from the start
+we can slice a string
+str[s:e]//we dont include the e
+we cant go from the end using negative num but we can do st[2: -1]
+multiplying string by n means to repeat this string n times
+we can join 2 lists by using + op
+append methods does not return a new list; it modifies the existing list in place and returns None. 
+if we have duplicated values and try to removing them using remove, it removed just the first one at the left
+EX:
+arr = [2,3,4,4,5,7,89,89]
+arr.remove(89)
+print(arr)  
+            |
+        <---|
+    [2,3,4,4,5,7,89]
+we can use multiple types in lists
+we can append list inside a list
+
+to comment ctrl+/ or :
+
+GITHUB:
+in the default branch we create diffrent branches and files inside them then git add, commit
+git checkout -b <branch name>
+being in the branch where we want to merge to <default branch>
+git merge <branch name> (created one)
+if we get a conflict, in the default branch we add the file contain the conflict, git commit withut msg
+
+input save the input as strings
