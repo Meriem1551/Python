@@ -12,3 +12,12 @@ for ninja in ninjas:
         break
     else:
         print(ninja)
+
+# for n in range(5):
+#     print(n)
+
+# for n in range(3, 10):  # from 3 to 9
+#     print(n)
+
+for n in range(0, 20, 4):  # from 0 to 20 with step of 4
+    print(n)
