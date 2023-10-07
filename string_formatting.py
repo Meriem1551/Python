@@ -5,4 +5,8 @@ num2 = 10.5678231
 # print("Num1 is:", num1, "and num2 is:", num2)
 
 # FORMAT METHOD
-print("num 1 is {0:.3} and num 2 is {1:.3}".format(num1, num2))
+# print("num 1 is {0:.3f} and num 2 is {1:.3f}".format(num1, num2))  # 3 decimal place
+
+# USING F-STRINGS
+
+print(f"num 1 is {num1} and num 2 is {num2}")
