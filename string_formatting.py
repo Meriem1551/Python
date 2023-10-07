@@ -9,4 +9,4 @@ num2 = 10.5678231
 
 # USING F-STRINGS
 
-print(f"num 1 is {num1} and num 2 is {num2}")
+print(f"num 1 is {num1:.4f} and num 2 is {num2:.4f}")
