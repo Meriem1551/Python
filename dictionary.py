@@ -9,4 +9,8 @@ ninja_belt = {"Crystal": "red", "ryu": "yellow"}
 # print(ninja_belt.values())
 
 vals = list(ninja_belt.values())
-print(vals.count("red"))  # return number of the vlue passed
+# print(vals.count("red"))  # return number of the vlue passed
+
+ninja_belt["mario"] = "blue"
+
+print(ninja_belt)
