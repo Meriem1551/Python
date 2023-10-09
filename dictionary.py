@@ -13,4 +13,8 @@ vals = list(ninja_belt.values())
 
 ninja_belt["mario"] = "blue"
 
-print(ninja_belt)
+# print(ninja_belt)
+
+person = dict(name="Meriem", age=19, weight="44kg")
+
+print(person)
