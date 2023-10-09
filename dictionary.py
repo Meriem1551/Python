@@ -27,7 +27,7 @@
 
 def belt_count(dictionary):
     belts = list(dictionary.values())
-    for belt in belts:
+    for belt in set(belts):
         num = belts.count(belt)
         print(f"There are {num} {belt} belts")
 
