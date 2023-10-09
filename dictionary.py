@@ -5,3 +5,5 @@ print("yoshi" in ninja_belt)
 print("ryu" in ninja_belt)
 
 print(ninja_belt.keys())
+
+print(list(ninja_belt))
