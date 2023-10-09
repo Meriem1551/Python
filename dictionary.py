@@ -7,3 +7,5 @@ print("ryu" in ninja_belt)
 print(ninja_belt.keys())
 
 print(list(ninja_belt))
+
+print(ninja_belt.values())
