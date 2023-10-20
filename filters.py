@@ -7,8 +7,10 @@ def remove_fails(grade):
 
 # print(list(filter(remove_fails, grades)))
 
-filtered_grades = []
-for grade in grades:
-    if grade != "F":
-        filtered_grades.append(grade)
-print(filtered_grades)
+# filtered_grades = []
+# for grade in grades:
+#     if grade != "F":
+#         filtered_grades.append(grade)
+# print(filtered_grades)
+
+print([grade for grade in grades if grade != "F"])
