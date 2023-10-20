@@ -8,3 +8,18 @@ print(dbl_prizes)
 
 # list Comprehension
 dbl_prizes = [prize * 2 for prize in prizes]
+print(dbl_prizes)
+
+# square numbers
+
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+squared_even_nums = []
+for num in nums:
+    if (num**2) % 2 == 0:
+        squared_even_nums.append(num**2)
+print(squared_even_nums)
+
+# comprehension method
+squared_even_nums = [num**2 for num in nums if ((num**2) % 2 == 0)]
+print(squared_even_nums)
