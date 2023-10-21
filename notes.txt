@@ -34,3 +34,4 @@ git merge <branch name> (created one)
 if we get a conflict, in the default branch we add the file contain the conflict, git commit withut msg
 
 input save the input as strings
+to show emojies type windows key + ;
