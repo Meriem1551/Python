@@ -1,5 +1,5 @@
-from spaces.planet import Planet
-from spaces.calc import planet_mass, planet_vol
+from packages.planet import Planet
+from packages.calc import planet_mass, planet_vol
 
 from classes import Planet
 
