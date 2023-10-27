@@ -35,3 +35,9 @@ if we get a conflict, in the default branch we add the file contain the conflict
 
 input save the input as strings
 to show emojies type windows key + ;
+
+each time we add __init__.py python sets  the folder  as a package
+
+PYPI AND PIP:
+pypi.org
+pip install openpyxl
