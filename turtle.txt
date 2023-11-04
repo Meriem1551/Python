@@ -1,0 +1,41 @@
+import turtle
+
+turtle.shape("turtle")
+turtle.forward(100)
+turtle.penup()
+turtle.forward(100)
+turtle.pendown()
+turtle.forward(100)
+turtle.right(45deg)
+turtle.hideturtle()
+will draw ____    ____
+
+my_turtle = turtle.Turtle()
+my_turtle.shape("circle")
+drawing_area = turtle.Screen()
+drawing_area.title('Screen Demo')
+drawing_area.bgcolor('yellow)
+drawing_area.exitonclick()
+
+width  = 50% of the screen width
+height = 75% // //   //    height
+drawing_area.setup(width = 650, height = 650)
+we use float numbers as %
+
+to positionate the screen:
+drawing_area.setup(width = 650, height = 650, startx = 0, starty = 0)
+
+my_turtle.forward(150)
+my_turtle.backward(150)
+my_turtle.left(90deg)
+my_turtle.write(my_turtle.position(), font = ("Ariel", 16, "normal"))
+
+my_turtle.color('red')
+my_turtle.pensize(10)
+
+FILL SHAPES WITH COLORS:
+my_turtle.color('red', 'yellow')
+my_turtle.begin_fill()
+    //code
+my_turtle.end_fill()
+if you dont specify the fil color it takes the color we draw with
